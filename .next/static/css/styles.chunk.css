@@ -1,0 +1,55 @@
+.navbar {
+  margin: 0 !important;
+  padding: 0;
+  background-color: #f48fb1;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border: none !important;
+  border-radius: 0 !important; }
+  .navbar_menu {
+    height: 100%;
+    border: none;
+    border-radius: 0%; }
+  .navbar_item {
+    color: white;
+    display: table-cell;
+    padding: 15px 15px;
+    height: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    border-radius: 0%; }
+    .navbar_item:hover {
+      background-color: gainsboro;
+      text-decoration: none; }
+    .navbar_item.btn {
+      border-radius: 0; }
+  .navbar .dropdown-menu {
+    border: none;
+    padding: 0;
+    margin: 0; }
+    .navbar .dropdown-menu.show {
+      left: -4px !important; }
+    .navbar .dropdown-menu .dropdown-item {
+      display: block;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px double #cecece; }
+      .navbar .dropdown-menu .dropdown-item:hover {
+        background-color: #bbbbbb;
+        outline: none; }
+
+.homepage {
+  background-color: #004d40;
+  color: white;
+  height: 100vh;
+  text-align: center; }
+  .homepage h1 {
+    margin: 0;
+    padding-top: 20px; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

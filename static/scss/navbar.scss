@@ -1,0 +1,53 @@
+.navbar {
+  margin: 0 !important;
+  padding: 0;
+  background-color: #f48fb1;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border: none !important;
+  border-radius: 0 !important;
+  &_menu {
+    height: 100%;
+    border: none;
+    border-radius: 0%;
+    
+  }
+  &_item {
+    color: white;
+    display: table-cell;
+    padding: 15px 15px;
+    height: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    border-radius: 0%;
+    &:hover {
+      background-color: gainsboro;
+      text-decoration: none;
+    }
+    &.btn{
+      border-radius: 0;
+    }
+  }
+  .dropdown-menu {
+    border: none;
+    padding: 0;
+    margin: 0;
+    &.show{
+      left: -4px !important;
+    }
+    .dropdown-item {
+     display: block;
+     padding: 10px;
+     width: 100%;
+     border: none;
+     border-bottom: 1px double #cecece;
+     &:hover{
+       background-color: #bbbbbb;
+       outline: none;
+     }
+    }
+  }
+}
