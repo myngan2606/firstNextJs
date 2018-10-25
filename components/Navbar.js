@@ -36,14 +36,14 @@ class Nav extends Component {
             </DropdownToggle>
           </Link>
           <DropdownMenu>
-            <Link href="/home/menu-1">
-              <DropdownItem>Menu 01</DropdownItem>
+            <Link href="/home/about">
+              <DropdownItem>About</DropdownItem>
             </Link>
-            <Link href="/home/menu-2">
-              <DropdownItem>Menu 02</DropdownItem>
+            <Link href="/home/product">
+              <DropdownItem>Product</DropdownItem>
             </Link>
-            <Link href="/home/menu-3">
-              <DropdownItem>Menu 03</DropdownItem>
+            <Link href="/home/contact">
+              <DropdownItem>Contact</DropdownItem>
             </Link>
           </DropdownMenu>
         </Dropdown>

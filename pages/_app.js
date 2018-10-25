@@ -4,7 +4,7 @@ import App, { Container } from "next/app";
 import withRedux from "next-redux-wrapper";
 import { makeStore } from "./../reducer";
 import Nav from "../components/Navbar";
-import Breadscrumb from "./../components/breadscrum";
+import Breadscrumb from "./../components/breadcrum";
 
 class TodoApp extends App {
   static async getInitialProps({ Component, ctx }) {
